@@ -1,0 +1,33 @@
+h1 {
+  color: blue;
+}
+
+.my-title {
+  color: green;
+}
+.my-second-paragraph {
+  color: red;
+}
+#my-paragraph-id {
+  color: magenta;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    gap: 60px;
+}
+h1,
+p {
+  color: rgb(0, 255, 42);
+}
+
+section p {
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
